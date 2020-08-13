@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #ececec;
+}
+
+.header {
+  height: 70px;
+  padding: 0 30px;
+  line-height: 70px;
+  background: gray;
+}
+
+.main {
+  position: relative;
+  display: flex;
+}
+.main-nav {
+  display: flex;
+  margin: 30px 0;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  background: #fff;
+}
+.main-nav a {
+  margin-right: 20px;
+  color: #2196f3;
+}
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+.main-left-bottom {
+  display: flex;
+}
+.main-right {
+  padding: 0 30px;
+}
+
+.sidebar {
+  width: 300px;
+  margin: 0 30px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: calc(100vh - 4rem);
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.product-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.alsoWatched {
+  margin-top: 30px;
+  width: 300px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.alsoWatched__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: gray;
+  color: white;
+}
+.alsoWatched > .product-list {
+  flex-direction: column;
+}
+
+.alsoBougth {
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.alsoBougth > .product-list {
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  padding: 6px 20px;
+  border: none;
+  background: #656af1;
+  color: #fff;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.not-visible {
+  display: none;
+}
+
+/*# sourceMappingURL=/main.d9ee62f6.css.map */
